@@ -24,7 +24,7 @@ export default function Navbar() {
           <ThemeController />
 
           <Link
-            href={'#'}
+            href={'/test'}
             className={cn(
               buttonVariants({
                 size: 'icon',

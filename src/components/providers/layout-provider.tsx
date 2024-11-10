@@ -4,11 +4,7 @@ import { cn } from '@/lib/utils'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
-export default function LayoutProvider({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export function LayoutProvider({ children }: { children: React.ReactNode }) {
   return (
     <div className={cn('grid min-h-screen grid-rows-[auto,1fr,auto]')}>
       <Navbar />
